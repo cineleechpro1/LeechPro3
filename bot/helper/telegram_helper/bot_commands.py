@@ -12,10 +12,10 @@ def getCommand(name: str, command: str):
 class _BotCommands:
     def __init__(self):
         self.StartCommand = getCommand(f'START_COMMAND', f'start{CMD_SUFFIX}')
-        self.MirrorCommand = getCommand(f'MIRROR_COMMAND', f'mirror{CMD_SUFFIX}'), f'm{CMD_SUFFIX}'
+        self.MirrorCommand = getCommand(f'MIRROR_COMMAND', f'mirror1{CMD_SUFFIX}'), f'm{CMD_SUFFIX}'
         self.UnzipMirrorCommand = getCommand(f'UNZIP_COMMAND', f'unzipmirror{CMD_SUFFIX}'), f'uzm{CMD_SUFFIX}'
         self.ZipMirrorCommand = getCommand(f'ZIP_COMMAND', f'zipmirror{CMD_SUFFIX}'), f'zm{CMD_SUFFIX}'
-        self.LeechCommand = getCommand(f'LEECH_COMMAND', f'leech{CMD_SUFFIX}'), f'l{CMD_SUFFIX}'
+        self.LeechCommand = getCommand(f'LEECH_COMMAND', f'mirror{CMD_SUFFIX}'), f'l{CMD_SUFFIX}'
         self.UnzipLeechCommand = getCommand(f'UNZIPLEECH_COMMAND', f'unzipleech{CMD_SUFFIX}'), f'uzl{CMD_SUFFIX}'
         self.ZipLeechCommand = getCommand(f'ZIPLEECH_COMMAND', f'zipleech{CMD_SUFFIX}'), f'zl{CMD_SUFFIX}'
         self.CloneCommand = getCommand(f'CLONE_COMMAND', f'clone{CMD_SUFFIX}'), f'c{CMD_SUFFIX}'
